@@ -1,0 +1,18 @@
+.zoom {
+  background-color: #e5e5e5;
+  transition: transform 0.8s;
+  width: 300px;
+  height: 180px;
+  /* display: inline-block; */
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.swiper-slide {
+  width: 300px !important;
+  height: 220px !important;
+  overflow: hidden;
+}

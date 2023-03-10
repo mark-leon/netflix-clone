@@ -1,0 +1,60 @@
+body {
+  background: #000000;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fafafa;
+}
+/* 
+.bgBox {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bgExample {
+  width: 100vw;
+  height: 750px;
+  background-size: 100%;
+  animation: grow infinite ease-in-out 8s;
+}
+
+.box_without {
+  padding: 77px 0px 0px 110px;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2.5);
+  }
+} */
+.container {
+  position: relative;
+  text-align: center;
+  color: #fafafa;
+  overflow: hidden;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(3.5);
+  }
+}
+
+.animate {
+  animation: grow infinite alternate ease-in-out 8s;
+
+  width: 100vw;
+  height: 750px;
+}
+.top-left {
+  position: absolute;
+  top: 77px;
+  left: 110px;
+}
