@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./singleMovie.css";
+import error from "../../assets/error.jpg";
 
 const SingleMovie = (props) => {
   const { singleItem, loading } = props;
@@ -28,7 +29,11 @@ const SingleMovie = (props) => {
                 <SwiperSlide>
                   <div className="zoom">
                     <img
-                      src={`https://image.tmdb.org/t/p/original/${data.backdrop_path}`}
+                      src={
+                        data.backdrop_path
+                          ? `https://image.tmdb.org/t/p/original/${data.backdrop_path}`
+                          : error
+                      }
                       style={{ width: "300px", height: "180px" }}
                     ></img>
                   </div>

@@ -17,7 +17,7 @@ body {
     transform: scale(1);
   }
   100% {
-    transform: scale(3.5);
+    transform: scale(3);
   }
 }
 
@@ -29,6 +29,6 @@ body {
 }
 .top-left {
   position: absolute;
-  top: 77px;
+  top: 155px;
   left: 110px;
 }
