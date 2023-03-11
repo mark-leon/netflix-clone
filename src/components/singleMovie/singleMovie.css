@@ -3,7 +3,6 @@
   transition: transform 0.8s;
   width: 300px;
   height: 180px;
-  /* display: inline-block; */
 }
 
 .zoom:hover {
@@ -15,4 +14,8 @@
   width: 300px !important;
   height: 220px !important;
   overflow: hidden;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fafafa;
 }

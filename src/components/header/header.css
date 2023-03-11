@@ -1,11 +1,3 @@
-body {
-  background: #000000;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  color: #fafafa;
-}
 .container {
   position: relative;
   color: #fafafa;
