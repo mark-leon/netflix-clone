@@ -1,4 +1,3 @@
-import { Grid } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { getMoviesByCategory } from "../../movieApi/movie";
 import SingleMovie from "../singleMovie/SingleMovie";
